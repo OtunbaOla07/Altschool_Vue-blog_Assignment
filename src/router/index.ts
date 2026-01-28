@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import type { RouteRecordRaw } from 'vue-router'
 import { defineAsyncComponent } from 'vue'
-import ErrorBoundary from '../components/ErrorBoundary.vue'
 
 // Lazy load pages with Suspense
 const Home = defineAsyncComponent(() => import('../pages/Home.vue'))

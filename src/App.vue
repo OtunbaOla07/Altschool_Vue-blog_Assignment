@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import ErrorBoundary from './components/ErrorBoundary.vue'
-
-const errorBoundaryRef = ref<InstanceType<typeof ErrorBoundary>>()
 </script>
 
 <template>
